@@ -31,3 +31,7 @@ h1 {
 p {
     font-size: 1.25rem;
 }
+
+.email-link {
+    color: #ffffff;
+}
