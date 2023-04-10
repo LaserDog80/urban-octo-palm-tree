@@ -26,3 +26,10 @@ h1 {
 p {
     font-size: 1.25rem;
 }
+
+@font-face {
+  font-family: 'Codec Pro Thin';
+  src: url('./codec-pro-thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
