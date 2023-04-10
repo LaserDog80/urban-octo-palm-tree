@@ -1,7 +1,12 @@
+@font-face {
+  font-family: 'Codec Pro Thin';
+  src: url('./fonts/codec-pro-thin.ttf') format('truetype');
+}
+
 body {
     background-color: #272d32;
     color: #f8f4f2;
-    font-family: 'Raleway', Arial, sans-serif;
+    font-family: 'Codec Pro Thin', Arial, sans-serif;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -14,7 +19,7 @@ body {
 }
 
 .logo {
-    width: 350px;
+    width: 200px;
     height: auto;
 }
 
@@ -25,11 +30,4 @@ h1 {
 
 p {
     font-size: 1.25rem;
-}
-
-@font-face {
-  font-family: 'Codec Pro Thin';
-  src: url('./codec-pro-thin.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
 }
