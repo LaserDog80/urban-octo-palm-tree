@@ -26,8 +26,8 @@ body {
 
 h1 {
     font-size: 7.5rem; /* Adjust the font size as needed */
-    margin-top: 0; /* Remove space above the heading */
-    margin-bottom: 0; /* Remove space below the heading */
+    margin-top: 10px; /* Remove space above the heading */
+    margin-bottom: 10px; /* Remove space below the heading */
     text-align: center; /* Center the heading */
 }
 
