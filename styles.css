@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    flex-direction: column; /* Add this property */
+    flex-direction: column;
 }
 
 .container {
@@ -48,13 +48,12 @@ p {
 
 /* Table styles */
 .table {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
   width: 100%;
-}
-
-.table-column {
-  flex: 1;
+  max-width: 1200px; /* Adjust this value if needed */
+  margin: 0 auto;
 }
 
 .table-column-1 {
@@ -65,7 +64,8 @@ p {
 .table-column-2 {
   display: flex;
   justify-content: flex-start;
-  flex-direction: column; /* Add this property */
+  flex-direction: column;
+  text-align: left;
 }
 
 .news-image {
@@ -76,6 +76,4 @@ p {
 
 @media (max-width: 480px) {
   h1 {
-    font-size: 3rem;
-  }
-}
+    font-size:
