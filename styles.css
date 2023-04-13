@@ -47,7 +47,8 @@ p {
     font-size: 1rem;
 }
 
-.email-link {
+.email-link,
+.course-link {
     color: #ffffff;
 }
 
@@ -62,12 +63,9 @@ p {
 }
 
 .disclaimer {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     margin-top: 20px;
 }
 
 @media (max-width: 480px) {
-  h1 {
-    font-size: 3rem;
-  }
-}
+  h1
