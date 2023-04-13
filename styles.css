@@ -37,6 +37,12 @@ h2 {
   text-align: center;
 }
 
+h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    text-align: center;
+}
+
 p {
     font-size: 1rem;
 }
@@ -45,9 +51,18 @@ p {
     color: #ffffff;
 }
 
+.spacer {
+    height: 1rem;
+}
+
 .news-image {
-    width: 40%;
+    width: 30%;
     height: auto;
+    margin-top: 20px;
+}
+
+.disclaimer {
+    font-size: 0.8rem;
     margin-top: 20px;
 }
 
