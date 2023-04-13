@@ -20,12 +20,12 @@ body {
 }
 
 .logo {
-    width: 350px;
+    width: 300px;
     height: auto;
 }
 
 h1 {
-    font-size: 7.5rem; /* Adjust the font size as needed */
+    font-size: 5rem; /* Adjust the font size as needed */
     margin-top: 10px; /* Remove space above the heading */
     margin-bottom: 10px; /* Remove space below the heading */
     text-align: center; /* Center the heading */
