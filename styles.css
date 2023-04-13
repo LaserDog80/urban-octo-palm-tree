@@ -38,7 +38,7 @@ h2 {
 }
 
 h3 {
-    font-size: 0.9rem;
+    font-size: 1.25rem;
     margin-top: 10px;
     text-align: center;
 }
@@ -47,8 +47,7 @@ p {
     font-size: 1rem;
 }
 
-.email-link,
-.course-link {
+.email-link {
     color: #ffffff;
 }
 
@@ -68,4 +67,4 @@ p {
 }
 
 @media (max-width: 480px) {
-  h1
+  h1 {
